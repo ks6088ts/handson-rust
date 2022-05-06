@@ -44,7 +44,7 @@ docs: ## generate docs
 
 .PHONY: run
 run: ## run an app
-	$(CARGO) run --verbose
+	$(CARGO) run --verbose -- --name test
 
 .PHONY: _ci-test-base
 _ci-test-base: install-deps format-check lint build test docs run ## ci test base
