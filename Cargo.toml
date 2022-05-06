@@ -1,8 +1,16 @@
 [package]
 name = "handson-rust"
 version = "0.1.0"
+authors = [
+  "ks6088ts",
+]
+description = "handson-rust"
+keywords = ["handson"]
+repository = "https://github.com/ks6088ts/handson-rust.git"
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "3.1.16", features = ["derive"] }
